@@ -1,0 +1,45 @@
+@import "../../Varaibles/";
+
+#cart-item-glasses-container{
+  display: flex;
+  border: black solid 2px;
+  width: 100%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: $primary-yellow;
+
+
+  #cart-item-glasses-img-container{
+    width: 50%;
+    border: black solid 2px;
+    // height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #cart-item-glasses-img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+
+  #cart-item-glasses-text-container{
+    border: black solid 2px;
+    width: 50%;
+    text-align: center;
+    font-family: serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    #cart-item-glasses-ModelName{
+      // border: black solid 2px;
+    }
+
+    #cart-item-glasses-Price{
+      // border: black solid 2px;
+    }
+  }
+}

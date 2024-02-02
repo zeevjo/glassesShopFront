@@ -1,0 +1,34 @@
+@import "../../Varaibles/index.scss";
+
+.dashbord-container-en {
+  border: $primary-black solid 2px;
+  // border-style: double;
+  // background-color: lightblue;
+  // height: 100vh;
+  border-top-right-radius: 10px;
+  background-color: $primary-yellow;
+
+  .dashbord-border-style-en {
+    border: $primary-black solid 2px;
+    margin: 2px;
+    border-top-right-radius: 10px;
+    background-color: $primary-white;
+  }
+}
+
+.dashbord-container-heb {
+  border: $primary-black solid 2px;
+  background-color: $primary-yellow;
+  // background-color: $primary-yellow;
+  // height: 100vh;
+  border-top-left-radius: 10px;
+  // background-color: $primary-yellow;
+
+  .dashbord-border-style-heb {
+    border: $primary-black solid 2px;
+    margin: 2px;
+    border-top-left-radius: 10px;
+    background-color: $primary-white;
+    // background-color: $primary-yellow;
+  }
+}

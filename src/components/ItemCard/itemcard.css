@@ -1,0 +1,247 @@
+#full-item {
+  display: none;
+  position: absolute;
+  width: 98%;
+  height: 17%;
+  top: 79%;
+  right: 1%;
+  left: 1%;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.heb-arrow {
+  transform: rotate(180deg);
+}
+
+.item-card-container:hover #full-item {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 320px) {
+  .item-card-container {
+    border: 1px rgb(71, 70, 70) solid;
+    width: 80.2%;
+    width: 252px;
+    height: 318px;
+    margin-bottom: 7%;
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  .item-card-container .item-img-container .item-img {
+    width: 250px;
+    height: auto;
+  }
+  .item-card-container .item-img-container {
+    position: relative;
+  }
+  .item-card-container .content-above-image {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 10;
+    font-size: 16px;
+    width: 10%;
+    height: 15%;
+    cursor: pointer;
+  }
+  .item-card-container #cart {
+    font-size: x-large;
+    cursor: pointer;
+  }
+  .item-card-container #plus {
+    font-size: 10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 18%;
+    right: 25%;
+  }
+  .item-card-container #modelName {
+    font-family: serif;
+    font-size: medium;
+    width: 250px;
+    height: 5%;
+    text-align: center;
+  }
+  .item-card-container #price {
+    font-family: serif;
+    font-size: small;
+    width: 250px;
+    height: 5%;
+    text-align: center;
+  }
+  .item-card-container .model-rating {
+    width: 250px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+  }
+  .item-card-container .model-rating .star-icon-fill-star {
+    height: 100%;
+    font-size: medium;
+    color: rgb(250, 204, 0);
+  }
+  .item-card-container .model-rating .star-icon-outline-star {
+    height: 100%;
+    font-size: medium;
+    color: black;
+  }
+  .item-card-container .color-slider-container {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 15%;
+  }
+  .item-card-container .color-slider-container .color-options {
+    display: flex;
+    width: 250px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .item-card-container .color-slider-container .color-options .color-option {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .item-card-container .color-slider-container .color-options .color-option .selected {
+    border: red solid 2px;
+  }
+  .item-card-container .color-slider-container .color-options .color-option .colors {
+    width: 22px;
+    height: 22px;
+    border-radius: 25rem;
+    border: 1px rgb(0, 0, 0) solid;
+    cursor: pointer;
+  }
+  .item-card-container .color-slider-container .color-options .color-option .selected-color-img {
+    border: rgb(250, 204, 0) solid 3px;
+  }
+  .item-card-container .item-cart-arrow-icon {
+    height: 100%;
+    width: 20px;
+    cursor: pointer;
+  }
+  .item-card-container .item-cart-arrow-icon:focus {
+    outline: none;
+    /* Optionally, add a different focus style that suits your design */
+  }
+  .item-card-container .colors:focus {
+    outline: none;
+    /* Optionally, add a different focus style that suits your design */
+  }
+  .item-card-container #shop-stock-alert {
+    width: 250px;
+    font-family: serif;
+    font-size: small;
+    text-align: center;
+    color: red;
+  }
+  .item-card-container #dashbord-shop-item-data-container {
+    height: 19%;
+    display: flex;
+  }
+  .item-card-container #dashbord-shop-item-data-container #order-from-manufacturer-container {
+    width: 50%;
+    border: 1px rgb(71, 70, 70) solid;
+    cursor: pointer;
+  }
+  .item-card-container #dashbord-shop-item-data-container #order-from-manufacturer-container #order-from-manufacturer-btn {
+    font-size: small;
+    height: 100%;
+    width: 100%;
+    font-family: serif;
+    cursor: pointer;
+  }
+  .item-card-container #dashbord-shop-item-data-container #order-from-selectedQuantity-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    font-family: serif;
+    border: 1px rgb(71, 70, 70) solid;
+    font-size: small;
+  }
+}
+@media (min-width: 375px) {
+  .item-card-container {
+    width: 252px;
+    height: 318px;
+    margin-bottom: 7%;
+  }
+}
+@media (min-width: 425px) {
+  .item-card-container {
+    width: 60%;
+    width: 252px;
+    height: 318px;
+    margin-bottom: 7%;
+  }
+}
+@media (min-width: 500px) {
+  .item-card-container {
+    width: 51.1%;
+    width: 252px;
+    height: 318px;
+    margin-bottom: 7%;
+  }
+}
+@media (min-width: 600px) {
+  .item-card-container {
+    width: 42.5%;
+    width: 252px;
+    height: 318px;
+    margin-bottom: 7%;
+  }
+}
+@media (min-width: 700px) {
+  .item-card-container {
+    width: 36.3%;
+    width: 252px;
+    height: 318px;
+    margin-bottom: 7%;
+  }
+}
+@media (min-width: 768px) {
+  .item-card-container {
+    border: 1px rgb(71, 70, 70) solid;
+    width: 33.1%;
+    width: 252px;
+    height: 318px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+  }
+  .item-card-container #dashbord-shop-item-data-container #order-from-manufacturer-container #order-from-manufacturer-btn {
+    font-size: medium;
+  }
+  .item-card-container #dashbord-shop-item-data-container #order-from-selectedQuantity-container {
+    font-size: medium;
+  }
+}
+@media (min-width: 1024px) {
+  .item-card-container #dashbord-shop-item-data-container #order-from-manufacturer-container #order-from-manufacturer-btn {
+    font-size: large;
+  }
+  .item-card-container #dashbord-shop-item-data-container #order-from-selectedQuantity-container {
+    font-size: large;
+  }
+}
+.item-card-container #dashbord-shop-item-data-container #order-from-manufacturer-container #order-from-manufacturer-btn {
+  background-color: black;
+  color: rgb(250, 204, 0);
+  border: 2px solid rgb(250, 204, 0);
+}/*# sourceMappingURL=itemcard.css.map */

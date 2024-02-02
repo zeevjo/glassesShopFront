@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heb {
+  direction: rtl;
+}
+
+.app-container {
+  /* border: solid red 2px; */
+  margin: 0;
+}
+
+/* body{
+  overflow-x: hidden;
+} */
+
+/* #test{
+  display: none;
+} */
+
+#loading-container-app {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#glasses-loading-icon {
+  color: white;
+  font-size: 300%;
+  animation: spin 3s linear infinite;
+}
+
+
+
+

@@ -1,0 +1,229 @@
+{
+  "navbar": {
+    "home": "עמוד הבית",
+    "shop": "חנות",
+    "cart": "עגלה",
+    "story": "הסיפור שלנו",
+    "calendar": "יומן",
+    "dashboard": "דש-בורד",
+    "account": "פרופיל"
+  },
+  "showcase": {
+    "shop-now": "קנה עכשיו"
+  },
+  "login": {
+    "login": "התחברות",
+    "submit": "התחבר",
+    "message": "הכניסו בבקשה שם משתמש וסיסמה",
+    "userNameInputLabel": "שם משתמש",
+    "passWordInputLabel": "סיסמה",
+    "newCustomerMessage": "לקוח חדש? ",
+    "newCustomerLinkMessage": "צור חשבון"
+  },
+  "signup": {
+    "register": "הרשמה",
+    "firstname": "שם פרטי",
+    "lastName": "שם משפחה",
+    "passWordInputLabel": "סיסמה",
+    "emailInputLabel": "איימל",
+    "BdayInputLabel": "תאריך לידה",
+    "phonenumberInputLabel": "מספר טלפון",
+    "userNameInputLabel": "שם משתמש",
+    "submit": "הירשם"
+  },
+  "login-validation": {
+    "erorrFieldValue4Characters": "שם מתשתמש חייב להיות באורך ארבע תווים לפחות",
+    "erorrUsernameRequired": "נדרש שם משתמש",
+    "erorrPasswordRequired": "נדרשת סיסמה",
+    "erorrstartsWithSpace": "שם משתמש לא יכול להתחיל ברווח",
+    "erorrFieldValueHasSpaces": "שם משתמש לא יכול להכיל רווחים",
+    "UserNameMustmoreThen2Chracters": "שם משתמש חייב להיות באורך של לפחות שני תווים",
+    "PasswordMostBeAtleast8CharactersLong": "סיסמה חייבת להיות באורך של לפחות שמונה תווים",
+    "PasswordMostHaveAtLeastOneUppercaseLetter": "חייבת להיות אות גדולה אחת לפחות בסיסמה",
+    "PasswordMostHaveAtLeastOneLowerCaseLetter": "חייבת להיות בסיסמה לפחות אות קטנה אחת",
+    "PasswordMostHaveAtLeastOneDigit": "סיסמה חייבת להכיל לפחות ספרה אחת",
+    "PasswordMostHaveAtLeastOneSpecialCharacter": "סיסמה חייבת להכיל לפחות תו אחד מיוחד"
+  },
+  "signup-validation": {
+    "firstNameIsRequired": "שם פרטי נדרש",
+    "firstNameCantStartWithSpace": "שם פרטי לא יכול להתחיל ברווח",
+    "firstNameCantHaveSpaces": "שם משפחה לא יכול להתחיל ברווח",
+    "firstNameMustHaveMoreThen2Chracters": "שם פרטי צריך להכיל יותר משני תווים",
+    "firstNameCantHaveNumbers": "שם פרטי לא יכול להכיל מספרים",
+    "lastnameisrequired": "נדרש שם משפחה",
+    "lastnamecantstartwithspace": "שם משפחה לא יכול להתחיל ברווח",
+    "lastnamecanthavespaces": "שם משפחה לא יכול להכיל רווחים",
+    "lastnamemostbelongerthentwochracters": "שם משפחה חייב להיות ארוך יותר משני תווים",
+    "lastnamecantcontianumbers": "שם משפחה לא יכול להכיל מספרים",
+    "erorrEmailRequired": "נדרש איימל",
+    "IncorrectEmailFormat": "פורמט האיימל אינו תקין",
+    "erorrstartsWithSpace": "איימל לא יכול להתחיל ברווח",
+    "erorrFieldValueHasSpaces": "איימל מייל לא יכול להכיל רווחים",
+    "erorrDateOfBirthRequired": "נדרש תאריך לידה",
+    "phoneNumberRequired": "נדרש מספר טלפון ",
+    "phoneNumberCantStartWithSpace": "מספר טלפון לא יכול להתחיל ברווח",
+    "phoneNumberCantHaveSpaces": "מספר טלפון לא יכול להכיל רווחים",
+    "phoneNumberCantHaveLetters": "מספר טלפון לא יכול להכיל אותיות",
+    "erorrUsernameRequired": "נדרש שם משתמש",
+    "usernameCantstartsWithSpace": "שם משתמש לא יכול להתחיל ברווח",
+    "usernameCantHaveSpaces": "שם משתמש לא יכול להכיל רווחים",
+    "usernameNeedsAtLeast4Characters": "שם משתמש חייב להכיל 4 תווים לפחות",
+    "thisUserNameAlreadyExists": "שם המשתמש הזה תפוס, תנסה שוב",
+    "erorrPasswordRequired": "נדרשת סיסמה",
+    "PasswordMostBeAtleast8CharactersLong": "סיסמה חייבת להיות באורך 8 תווים לפחות",
+    "PasswordMostHaveAtLeastOneUppercaseLetter": "חייבת להיות אות גודלה אחת לפחות",
+    "PasswordMostHaveAtLeastOneLowerCaseLetter": "חייבת להיות אות קטנה אחת לפחות",
+    "PasswordMostHaveAtLeastOneDigit": "חייב להיות מספר אחד לפחות",
+    "PasswordMostHaveAtLeastOneSpecialCharacter": "חייב להיות תו מיחד אחד לפחות",
+    "PasswordCantHaveSpaces": "לא יכולים להיות רווחים בסיסמה",
+    "userdoesnotexist": "User does not exist"
+  },
+  "shop": {
+    "eayglassesbutton": "משקפי ראיה",
+    "sunglassesbutton": "משקפי שמש",
+    "contactlens": "עדשות מגע"
+  },
+  "itemcard": {
+    "lastinstock": "פריט אחרון במלאי",
+    "notinstock": "לא במלאי",
+    "fullitem": "צפה במוצר",
+    "dashbordorderglasess": "הזמן מהספק",
+    "dashbordcurrqantity": "במלאי"
+  },
+  "ItemFullcard": {
+    "Productdescription1": "הרם את הסגנון שלך וקבע טרנדים חדשים עם קולקציית המשקפיים היוקרתית הבלעדית שלנו, שנאספה בקפידה כדי להציע לך אלגנטיות ותחכום שאין שני להם, מה שמבטיח שכל זוג הוא עדות לאופנה נצחית ואומנות קפדנית.",
+    "Productdescription2": "טבלו את עצמכם בעולם היוקרה והאופנה עם המשקפיים היוקרתיים הייחודיים שלנו, כאשר כל זוג משקפיים מספר סיפור של אומנות ואינדיבידואליות, תוך אמירה נועזת שמתעלה מעבר לתפקוד בלבד והופכת לסמל של סגנון אישי.",
+    "Productdescription3": "קולקציית המשקפיים היוקרתית שלנו היא שילוב של אומנות וקוטור, המייצגת את התגלמות היוקרה והאופנה. עם כל פרט מעוצב בקפידה, המסגרות הללו הן עדות למסירותם של בעלי המלאכה שלנו לספק לך חווית משקפיים מעודנת",
+    "Productdescription4": "גלה משקפי מעצבים ייחודיים שלא רק משפרים את הראייה שלך, אלא גם מעלים את האסתטיקה הכללית שלך. כל זוג בקולקציה היוקרתית שלנו מגלם את השילוב המושלם של סגנון וחומר, המשקף את האומנות והחדשנות הנלווים ליצירתם",
+    "Productdescription5": "חווה מצוינות במשקפיים כמו שלא היה מעולם, כשאתה חושף את העולם האופנתי והייחודי של מסגרות יוקרתיות שהרכבנו בקפידה עבור אנשים בעלי אבחנה כמוך, מה שמאפשר לך להשמיע אמירה אופנתית ייחודית שמדברת רבות על הטעם המעולה שלך.",
+    "chooselens": "בחר עדשות",
+    "addtocart": "הוסף לעגלה"
+  },
+  "lenses": {
+    "title": "עדשות",
+    "prescriptionStrengthLabel": "מידה",
+    "prescriptionStrengthIsRequired": "נדרש להכנס מידה",
+    "enterPrescriptionStrength": "הכנס מידה ",
+    "lensCoating-SelectAnOptionLabel": "ציפוי עדשות",
+    "lensCoatingRequired": "נדרש לבחור סוג ציפוי",
+    "lensCoating": "בחר סוג ציפוי",
+    "lensCoating-BluBlock": "מסנן אור כחול",
+    "lensCoating-Anti-Reflective": "אנטי רפלקטיבי",
+    "EnterAnumberRangingFromNegative15toPositive15InJumpsOfAQuarter": "הכנס מספר בין 15 ל 15- בקפיצות של רבע",
+    "thicknessLabel": "עובי עדשה",
+    "enterThickness": "הכנס מידת עובי העדשה",
+    "thicknessIsRequired": "נדרש להכניס את מידת עובי העדשה",
+    "invalidthicknesssize": "עובי העדשה לא תקין בחר עובי מהמידות הבאות 1.5, 1.53, 1.57, 1.59, 1.61, 1.67, 1.74 ",
+    "cylinderInvaid": "מידת צילנדר נעה בין 0.25 ל 15 בקפיצות של רבע",
+    "cylinderIsRequired": "נדרש להכניס מידת צילנדר",
+    "entercylinder": "הכנס מידת צילינדר",
+    "cylinderLabel": "צילינדר",
+    "contactLenses": "עדשות מגע",
+    "ExparyDate": "תאריך תפוגה",
+    "selectAnExparyDate": "בחר תאריך תפוגה",
+    "daily": "יומי",
+    "weekly": "שבועי",
+    "monthly": "חודשי",
+    "annual": "שנתי",
+    "submit": "הוסף לעגלה"
+  },
+  "cart": {
+    "title": "Cart",
+    "total-title": "סך כל העגלה",
+    "order-btn": "הזמנה",
+    "order-btn-not-logedin": "התחבר לאתר לביצוע הזמנה"
+  },
+  "cartitemcontactlenses": {
+    "name": "עדשות מגע"
+  },
+  "cartitemlenses": {
+    "name": "עדשות"
+  },
+  "creditcard": {
+    "invalidcreditcardnumber": "מספר כרטיס לא תקין",
+    "invalidExparyDate": "תאריך תפוגה לא תקין",
+    "ExparyDateToLong": "תאריך תפוגה ארוך מיידי",
+    "invalidcvc": "לא תקין CVC",
+    "creditcardNameIsRequired": "נדרש שם בעלים ",
+    "CardNumber": "מספר כרטיס",
+    "ExpirationDate": "תוקף",
+    "CVV": "CVV",
+    "OnerName": "שם בעלים מלא",
+    "order": "הזמנה",
+    "creditcardNameIsReInvalid": "שם הבעלים לא תקין"
+  },
+  "order": {
+    "order": "הזמנה",
+    "totalOrder": "סך הכל לתשלום",
+    "Continue": "המשך",
+    "title": "פרטי הזמנה",
+    "selectpaymentMethod": "בחר אמצעי תשלום",
+    "paymentMethod": "אמצעי תשלום",
+    "cash": "מזומן",
+    "creditCard": "אשראי"
+  },
+  "customparagraph": {
+    "str1": "לחוות מצוינות בכל זוג משקפי ראייה שאנו מציעים, שנוצרו על ידי אומנים מיומנים ביותר תוך שימוש בחומרים הטובים ביותר מרחבי העולם",
+    "str2": "צלול לתוך עולם התחכום והאומנות המעולה עם משקפי הראייה המפורסמים הבינלאומיים שלנו, הממזגים עיצוב מדהים עם איכות מעולה שמושכת את כולם"
+  },
+  "FrontViewModels": {
+    "title": "הצצה קטנה"
+  },
+  "storylink": {
+    "p": "אנו רואים את העולם מנקודת המבט שלכם כבר מ 1915..."
+  },
+  "footer": {
+    "shop": "חנות",
+    "contactus": "צור קשר",
+    "story": "הסיפור שלנו",
+    "account": "חשבון",
+    "home": "בית"
+  },
+  "story": {
+    "p1": "ברחובות התוססים של העיר ניו יורק של שנת 1915, הנרי, אופטיקאי צעיר ומונע, נשא תשוקה בלתי מתפשרת למשקפיים שחרוגה מהפונקציונליות בלבד. השאיפה שלו? ליצור משקפיים שלא רק תיקנו את הראייה אלא גם שידרו סטייל, והפכו להצהרות אופנתיות בפני עצמן. הקים בית מלאכה צנוע בשכונתו, הנרי עיצב בקפידה כל זוג משקפיים, והחדיר בהם ייחוד וכשרון שאין שני לו. מסירותו לפרטים כבשה עד מהרה את המקומיים, ומשכה אותם להתפעל מהאומנות המעולה של יצירותיו.",
+    "p2": "המוניטין של הנרי התפשט במהירות כמו אש בשדה קוצים, ועורר דרישה חסרת תקדים למשקפי הראייה הייחודיים שלו. אנשים מרקעים מגוונים נהרו לסדנה שלו, להוטים לשים יד על העיצובים האקסקלוסיביים האלה שלא רק שיפרו את הראייה אלא גם גילמו אינדיבידואליות ותחכום. ככל שהזמן חלף, הסדנה של הנרי פרחה לחברה בינלאומית משגשגת, הידועה בשילוב של חדשנות, אלגנטיות ויוקרה ביצירת משקפיים. ההערכה העולמית של החברה משכה קהל לקוחות מיבשות רחוקות, וביצעה את קומתה כסמל של יוקרה וניצחון",
+    "p3": "עם שילוב של תחכום נצחי וחדשנות אוונגרדית, משקפי הראייה של החברה עיטרו את פניהם של ידוענים, מכובדים ומעצבי טרנדים ברחבי העולם. כל זוג, עדות לחזונו של הנרי, לא היה רק ​​כלי לראייה ברורה יותר אלא יצירת מופת מעודנת, המשלבת אומנות ופונקציונליות באיזון מושלם. מורשתו המתמשכת של הנרי נמשכה כשהחברה המשיכה להתפתח, תוך שמירה על מחויבותה למצוינות ותחכום תוך חלוצה בחזית תעשיית המשקפיים, מעוררת השראה לדורות עם העיצובים האייקוניים שלה ומסירותה הבלתי מעורערת לאומנות"
+  },
+  ",": {
+    "selectColor": "בחר צבע",
+    "reset": "איתחול סינון"
+  },
+  "filter": {
+    "selectColor": "בחר צבע",
+    "reset": "אתחל"
+  },
+  "dashBordNavBar": {
+    "dashbordShop": "מלאי",
+    "users": "משתמשים"
+  },
+  "order-validation": {
+    "firstNameIsRequired": "שם פרטי נדרש",
+    "firstNameCantStartWithSpace": "שם פרטי לא יכול להתחיל ברווח",
+    "firstNameMustHaveMoreThen2Chracters": "שם פרטי צריך להכיל יותר משני תווים",
+    "firstNameCantHaveNumbers": "שם פרטי לא יכול להכיל מספרים",
+    "lastnamecantstartwithspace": "שם משפחה לא יכול להתחיל ברווח",
+    "lastnameisrequired": "נדרש שם משפחה",
+    "lastnamemostbelongerthentwochracters": "שם משפחה חייב להיות ארוך יותר משני תווים",
+    "lastnamecantcontianumbers": "שם משפחה לא יכול להכיל מספרים",
+    "erorrEmailRequired": "נדרש איימל",
+    "IncorrectEmailFormat": "פורמט האיימל אינו תקין",
+    "erorrFieldValueHasSpaces": "איימל מייל לא יכול להכיל רווחים"
+  },
+  "finalOrderDetails": {
+    "tnxtext": "תודה על רכישתך באתר משקפיים שלנו!",
+    "keepshopping": "המשך קניה"
+  },
+  "users": {
+    "Employees": "עובדים",
+    "Customers": "לקוחות",
+    "Oner": "בעלים",
+    "all": "משתמשים",
+    "SelectRole": "בחר תפקיד",
+    "Employee": "עובד",
+    "Customer": "לקוח",
+    "UpdateUserRole": "עדכן תפקיד משתמש"
+  },
+  "account": {
+    "logout": "התנתק"
+  }
+}

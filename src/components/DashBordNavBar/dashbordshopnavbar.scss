@@ -1,0 +1,52 @@
+@import "../../Varaibles/";
+#dashbord-shop-navbar-container {
+  //border: red solid 2px;
+  display: flex;
+  margin-top: 20px;
+
+  .dashbord-links-containers {
+    background-color: $primary-yellow;
+    width: 170px;
+    border: $primary-black solid 2px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    border-bottom: $primary-yellow;
+  }
+
+  .dashbord-links {
+    color: $primary-black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  // #dashbord-dashbordShop-link{
+  //   z-index: 10;
+  // }
+
+  #dashbord-dashbordShop-link-container-en {
+    position: absolute;
+    left: 120px;
+
+    // z-index: 10;
+  }
+
+  #dashbord-dashbordShop-link-container-heb {
+    position: absolute;
+    right: 120px;
+
+    // z-index: 10;
+  }
+
+
+  // #Users-icon{
+  //   border: $primary-black 2px solid;
+  //   border-radius: 50%;
+  //   font-size: 20px;
+  // }
+}
+
+//10% 10% 10% 10% / 10% 10% 0% 0%

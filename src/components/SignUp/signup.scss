@@ -1,0 +1,508 @@
+@import "../../Varaibles/index.scss";
+
+#signup-container{
+  margin-top: 70px;
+}
+
+@media (min-width: 320px) {
+  .signup-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: solid red 2px;
+    // width: 200px;
+    height: 700px;
+    margin-top: 70px;
+  }
+
+  .dynamicClassForInputs {
+    //border: red 2px solid;
+
+    margin-top: 6%;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 950px;
+    margin-top: 70px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    margin-top: 12%;
+    margin-bottom: 12%;
+    // border: solid red 2px;
+    width: 80%;
+    background-color:$back-ground-gray ;
+    height: 100%;
+  }
+
+  #signup-title {
+    // border: solid red 2px;
+    text-align: center;
+    margin-bottom: 12%;
+    background-color:$primary-yellow ;
+    border: black 1px solid;
+  }
+
+  .signup-labels {
+    display: block;
+  }
+
+  .signup-form-inputs {
+    margin-top: 1%;
+    width: 100%;
+    height: 30px;
+    // border: rgb(188, 25, 25) solid 1px;
+    border: black 1px solid;
+  }
+
+  #signup-Bday-input {
+    min-width: 96.7%;
+    width: 100%;
+  }
+
+  .error {
+    margin-bottom: 10%;
+    color: red;
+  }
+
+  #signup-password-input {
+    margin-bottom: 1%;
+  }
+
+  #signup-submit-button-container {
+    width: 100%;
+    //border: solid red 2px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #signup-new-customer-container {
+    //border: solid red 2px;
+    text-align: end;
+  }
+
+  #signup-new-customer-message {
+    display: block;
+    text-align: end;
+    //border: solid red 2px;
+    display: inline;
+  }
+
+  #signup-submit-button {
+    margin-top: 10%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(250, 204, 0);
+    //border: 1px solid rgb(250, 204, 0);
+    font-family: serif;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 375px) {
+  .signup-form-container {
+    height: 700px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 890px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    margin-top: 11%;
+  }
+
+  .error {
+    margin-bottom: 7%;
+    color: red;
+  }
+
+  #signup-submit-button {
+    margin-top: 7%;
+  }
+}
+
+@media (min-width: 425px) {
+  .signup-form-container {
+    height: 730px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 890px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    margin-top: 10%;
+    width: 78%;
+  }
+
+  .error {
+    margin-bottom: 6%;
+    color: red;
+  }
+
+  #signup-submit-button {
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 500px) {
+  #signup-title {
+    margin-bottom: 9%;
+  }
+
+  .signup-grop-input {
+    width: 70%;
+  }
+
+  .error {
+    margin-bottom: 6%;
+    color: red;
+  }
+
+  #signup-submit-button {
+    margin-top: 8%;
+  }
+}
+
+@media (min-width: 500px) {
+  .signup-form-container {
+    height: 750px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 910px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+}
+
+@media (min-width: 575px) {
+  .signup-form-container {
+    height: 800px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 930px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    width: 65%;
+  }
+}
+
+@media (min-width: 650px) {
+  .signup-form-container {
+    height: 810px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 980px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+}
+
+@media (min-width: 700px) {
+  .signup-form-container {
+    height: 700px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 850px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .dynamicClassForInputs {
+    //border: red 2px solid;
+    margin-top: 5%;
+  }
+
+  .signup-grop-input {
+    margin-top: 5%;
+    //border: solid blue 2px;
+    width: 50%;
+    height: 100%;
+  }
+
+  #signup-title {
+    //border: solid red 2px;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+
+  .error {
+    margin-bottom: 5%;
+    color: red;
+  }
+
+  #signup-password-input {
+    margin-bottom: 1%;
+  }
+
+  #signup-submit-button {
+    margin-top: 4%;
+  }
+}
+
+@media (min-width: 800px) {
+  .signup-form-container {
+    height: 750px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 840px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    width: 55%;
+  }
+}
+
+@media (min-width: 900px) {
+  .signup-form-container {
+    height: 570px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 690px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    width: 40%;
+    height: 100%;
+  }
+
+  #laptop-test-1 {
+    // border: rgb(17, 219, 57) 2px solid;
+    display: flex;
+    justify-content: space-between;
+    .form-control {
+      width: 49%;
+    }
+  }
+
+  .dynamicClassForInputs {
+    margin-top: 3%;
+  }
+
+  #signup-title {
+    //border: solid red 2px;
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: large;
+  }
+
+  .error {
+    margin-bottom: 5%;
+    color: red;
+  }
+
+  #signup-password-input {
+    margin-bottom: 1%;
+  }
+
+  #signup-submit-button {
+    margin-top: 4%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .signup-form-container {
+    height: 590px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 750px;
+    border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    margin-top: 6%;
+    // //border: solid blue 2px;
+    width: 40%;
+    // height: 67%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6%;
+  }
+
+  #signup-lastName {
+    display: inline;
+  }
+
+  .signup-grop-input {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  .signup-form-container {
+    height: 680px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 790px;
+    border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    margin-top: 5%;
+    width: 40%;
+  }
+
+  #signup-title {
+    margin-bottom: 6%;
+  }
+
+  .error {
+    margin-bottom: 4%;
+  }
+
+  .signup-grop-input {
+    width: 50%;
+  }
+
+  #signup-submit-button {
+    margin-top: 4%;
+  }
+
+  #signup-submit-button {
+    margin-top: 10%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(250, 204, 0);
+    //border: 1px solid rgb(250, 204, 0);
+    font-family: serif;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1400px) {
+  .signup-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: solid red 2px;
+    height: 740px;
+  }
+
+  .dynamicClassForInputsWithErorr {
+    height: 850px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    padding: 15px;
+    width: 37%;
+    height: 90%;
+    // border: rgb(28, 10, 227) solid 2px;
+  }
+
+  .dynamicClassForInputGroup{
+    height: 87%;
+    // border: rgb(172, 12, 60) solid 2px;
+  }
+
+  #signup-title {
+    // border: solid red 2px;
+    width: 20%;
+    align-self: center;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 4%;
+    color: rgb(0, 0, 0);
+    // -webkit-text-stroke: 2px black;
+
+    //border: 1px solid rgba(255, 255, 255, 1);
+  }
+
+  
+  #signup-title {
+    // border: solid red 2px;
+    text-align: center;
+    background-color:$primary-yellow ;
+    border: black 1px solid;
+    width: 100%;
+  }
+
+  #signup-submit-button {
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    //border: 1px solid rgb(250, 204, 0);
+    font-family: serif;
+    font-size: medium;
+    font-weight: bold;
+
+    width: 30%;
+    // -webkit-text-stroke: 1px black;
+  }
+
+  .signup-labels {
+    font-size:medium;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    //text - outline
+    //-webkit-text-stroke: 0.2px black;
+  }
+
+  #signup-submit-button {
+    margin-top: 10%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(250, 204, 0);
+    //border: 1px solid rgb(250, 204, 0);
+    font-family: serif;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1500px) {
+  .signup-grop-input {
+    width: 37%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .signup-grop-input {
+    margin-top: 4%;
+    width: 37%;
+  }
+}
+
+@media (min-width: 1800px) {
+
+  .dynamicClassForInputsWithErorr {
+    height: 870px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    margin-top: 3%;
+    width: 33%;
+  }
+}
+
+@media (min-width: 2000px) {
+
+  .dynamicClassForInputsWithErorr {
+    height: 870px;
+    // border: solid rgb(213, 224, 9) 2px;
+  }
+
+  .signup-grop-input {
+    margin-top: 1%;
+    width: 30%;
+  }
+}
+
+// *{
+//   //border: red solid 2px;
+// }

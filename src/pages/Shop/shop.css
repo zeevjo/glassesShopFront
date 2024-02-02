@@ -1,0 +1,213 @@
+@media (min-width: 320px) {
+  #shop-container {
+    min-height: 460px;
+  }
+  #shop-container #mobile-shop-display #shop-nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    position: sticky;
+    top: 70px;
+    background-color: white;
+    z-index: 100;
+  }
+  #shop-container #mobile-shop-display #shop-nav-bar-container .shop-nav-btns {
+    height: 100%;
+    width: 31%;
+    background-color: rgb(250, 204, 0);
+    color: black;
+    font-family: serif;
+    border: 1px rgb(0, 0, 0) solid;
+  }
+  #shop-container #mobile-shop-display #itemCards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  #shop-container #mobile-shop-display #filter-container {
+    position: sticky;
+    bottom: 0;
+    background-color: yellow;
+    padding: 5px;
+    font-size: 20px;
+    z-index: 90;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border: solid 1px rgb(250, 204, 0);
+    border-bottom: black 1px solid;
+    height: 20px;
+  }
+  #shop-container #mobile-shop-display #filter-container #inner-box-design {
+    position: relative;
+    bottom: 25px;
+    height: 35px;
+    width: 37px;
+    border-radius: 50%;
+    background-color: rgb(250, 204, 0);
+    border: solid 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+  #shop-container #mobile-shop-display #lower-nav-container {
+    position: sticky;
+    bottom: 0;
+    border: rgb(250, 204, 0) solid 2px;
+    font-size: 20px;
+    z-index: 90;
+    height: 40px;
+  }
+  #shop-container #mobile-shop-display #lower-nav-container #inner-lower-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 37px;
+    background-color: rgb(0, 0, 0);
+  }
+  #shop-container #mobile-shop-display #lower-nav-container .shop-icons {
+    font-size: xx-large;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 204, 0);
+    position: relative;
+    bottom: 20px;
+    border: black 1px solid;
+  }
+}
+@media (min-width: 426px) {
+  #tablet-laptop-shop-display {
+    display: flex;
+    flex-direction: column;
+  }
+  #tablet-laptop-shop-display #shop-nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    position: sticky;
+    top: 70px;
+    background-color: white;
+    z-index: 100;
+  }
+  #tablet-laptop-shop-display #shop-nav-bar-container .shop-nav-btns {
+    height: 100%;
+    width: 31%;
+    background-color: rgb(250, 204, 0);
+    color: black;
+    font-family: serif;
+    border: 1px rgb(0, 0, 0) solid;
+  }
+  #tablet-laptop-shop-display #itemCards-container {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #tablet-laptop-shop-display .filter-btn-container-en {
+    position: sticky;
+    bottom: 20%;
+    background-color: yellow;
+    padding: 5px;
+    font-size: 20px;
+    z-index: 90;
+    background-color: black;
+    border: solid 1px rgb(250, 204, 0);
+    border-bottom: black 1px solid;
+    height: 55px;
+    width: 55px;
+    border-radius: 100% 0% 0% 10%/100% 100% 0% 0%;
+  }
+  #tablet-laptop-shop-display .filter-btn-container-en #inner-box-design {
+    position: relative;
+    top: 10px;
+    left: 7px;
+    height: 35px;
+    width: 37px;
+    border-radius: 50%;
+    background-color: rgb(250, 204, 0);
+    border: solid 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+  #tablet-laptop-shop-display .filter-btn-container-heb {
+    position: sticky;
+    bottom: 0;
+    right: 100%;
+    background-color: yellow;
+    padding: 5px;
+    font-size: 20px;
+    z-index: 90;
+    background-color: black;
+    border: solid 1px rgb(250, 204, 0);
+    border-bottom: black 1px solid;
+    height: 55px;
+    width: 55px;
+    border-radius: 0% 100% 0% 10%/100% 100% 0% 0%;
+  }
+  #tablet-laptop-shop-display .filter-btn-container-heb #inner-box-design {
+    position: relative;
+    top: 10px;
+    right: 7px;
+    height: 35px;
+    width: 37px;
+    border-radius: 50%;
+    background-color: rgb(250, 204, 0);
+    border: solid 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+}
+@media (min-width: 427px) {
+  #tablet-laptop-shop-display #itemCards-container {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 15px;
+    gap: 25px;
+  }
+  #tablet-laptop-shop-display #itemCards-container .item-card-container {
+    margin: 0%;
+  }
+  #lower-nav-container {
+    position: sticky;
+    bottom: 0;
+    border: rgb(250, 204, 0) solid 2px;
+    font-size: 20px;
+    z-index: 90;
+    height: 40px;
+    width: 100%;
+    align-self: center;
+    border-radius: 50%;
+  }
+  #lower-nav-container #inner-lower-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 37px;
+    background-color: rgb(0, 0, 0);
+  }
+  #lower-nav-container .shop-icons {
+    font-size: xx-large;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 204, 0);
+    position: relative;
+    bottom: 20px;
+    border: black 1px solid;
+  }
+}/*# sourceMappingURL=shop.css.map */

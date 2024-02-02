@@ -1,0 +1,194 @@
+@import "../../Varaibles/index.scss";
+
+@media (min-width: 320px) {
+  .users-container-en {
+    border: $debug-red solid 2px;
+    border-top-right-radius: 10px;
+    border: $primary-black solid 2px;
+    border-top-right-radius: 10px;
+    background-color: $primary-yellow;
+
+    
+    .users-border-style-en {
+      border: $primary-black solid 2px;
+      margin: 2px;
+      height: 99.5%;
+      border-top-right-radius: 10px;
+      background-color: $primary-white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2%;
+      // gap: 15px;
+      // flex-wrap: wrap;
+      // border: red solid 2px;
+      min-height: 100vh;
+    }
+    
+    .users-filter-container {
+      //border: red solid 2px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2%;
+      // margin-top: 15px;
+      // align-self:self-end;
+
+      .users-nav-btns {
+        height: 30px;
+        background-color: $primary-yellow;
+        color: $primary-black;
+        font-family: serif;
+        border-radius: 7px;
+        min-width: 70px;
+        // margin: 30px;
+        // display: block;
+      }
+    }
+
+    #users-gallry {
+      //border: red solid 2px;
+      width: 67%;
+      height: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .users-container-heb {
+    border-top-left-radius: 10px;
+    border: $primary-black solid 2px;
+    background-color: $primary-yellow;
+    border-top-left-radius: 10px;
+
+    .users-border-style-heb {
+      border: $primary-black solid 2px;
+      margin: 2px;
+      border-top-left-radius: 10px;
+      background-color: $primary-white;
+      height: 99.5%;
+      // background-color: $primary-yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      flex-wrap: wrap;
+      min-height: 100vh;
+    }
+
+    .users-filter-container {
+      // border: red solid 2px;
+    }
+
+    #users-gallry {
+      // border: red solid 2px;
+      width: 67%;
+      height: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .users-nav-btns {
+      height: 35px;
+    }
+  }
+
+
+  #lower-nav-container {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    border: rgb(250, 204, 0) solid 2px;
+    font-size: 20px;
+    z-index: 90;
+    height: 40px;
+
+    #inner-lower-nav-container {
+      // border: rgb(0, 47, 255) solid 2px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 37px;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .shop-icons {
+      // border: red solid 2px;
+      font-size: xx-large;
+      border-radius: 50%;
+      color: rgb(0, 0, 0);
+      background-color: rgb(250, 204, 0);
+      position: relative;
+      bottom: 20px;
+      border: black 1px solid;
+    }
+
+
+    .users-nav-btns-employee{
+      width: 95px;
+      height: 25px;
+      font-size: 15px;
+      //font-size: xx-large;
+      border-radius: 2rem;
+      color: rgb(0, 0, 0);
+      background-color: rgb(250, 204, 0);
+      position: relative;
+      bottom: 20px;
+      border: black 1px solid;
+      cursor: pointer;
+    }
+    .employee-btn{
+      border: #700de0 3px solid;
+    }
+    .oner-btn{
+      border: #5c97e4 3px solid;
+    }
+    .customer-btn{
+      border: black 3px solid;
+    }
+    .users-btn{
+      border: black 3px solid;
+    }
+  }
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+  .users-container-en {
+    .users-filter-container {
+      border: red solid 2px;
+      width: 10%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      // margin-top: 15px;
+      // align-self:self-end;
+      .users-nav-btns {
+        height: 30px;
+        background-color: $primary-yellow;
+        color: $primary-black;
+        font-family: serif;
+        border-radius: 7px;
+        min-width: 70px;
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../Varaibles/index.scss";
+#cart-item-contact-lenses-container {
+  display: flex;
+  border: black solid 2px;
+  display: flex;
+  width: 100%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: $primary-yellow;
+
+  #cart-item-contact-lenses-img-container {
+    width: 50%;
+    border: black solid 2px;
+    display: flex;
+
+    #cart-item-contact-lenses-img {
+      width: 100%;
+      height: auto;
+      background-color: white;
+      object-fit: contain;
+    }
+  }
+
+  #cart-item-contact-lenses-text-container {
+    border: black solid 2px;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    font-family: serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    #cart-item-contact-lenses-ModelName {
+      // border: red solid 2px;
+    }
+
+    #cart-item-contact-lenses-Price {
+      // border: red solid 2px;
+    }
+  }
+}

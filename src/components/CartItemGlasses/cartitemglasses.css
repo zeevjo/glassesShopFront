@@ -1,0 +1,30 @@
+#cart-item-glasses-container {
+  display: flex;
+  border: black solid 2px;
+  width: 100%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(250, 204, 0);
+}
+#cart-item-glasses-container #cart-item-glasses-img-container {
+  width: 50%;
+  border: black solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cart-item-glasses-container #cart-item-glasses-img-container #cart-item-glasses-img {
+  width: 100%;
+  height: auto;
+}
+#cart-item-glasses-container #cart-item-glasses-text-container {
+  border: black solid 2px;
+  width: 50%;
+  text-align: center;
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}/*# sourceMappingURL=cartitemglasses.css.map */

@@ -1,0 +1,77 @@
+@import "../../Varaibles/index.scss";
+@media (min-width: 320px) {
+  @import "~react-credit-cards-2/dist/lib/styles.scss";
+  #credit-card-container {
+    border: $primary-yellow solid 2px;
+    background-color: rgb(204, 202, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    border-radius: 1rem;
+  }
+
+  #credit-card-form {
+    border: $primary-yellow solid 2px;
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+
+  #creditCard-container {
+    border: 2px solid $primary-yellow;
+    border-radius: 1rem;
+  }
+
+  .credit-card-inputs {
+    border: $primary-yellow solid 2px;
+    width: 100%;
+    height: 35px;
+  }
+
+  #credit-card-submit-btn {
+    border: $primary-yellow solid 2px;
+    width: 30%;
+  }
+
+  .order-submit-container {
+    // border: red solid 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    #order-submit {
+      width: 100%;
+      height: 35px;
+      border: $primary-yellow solid 2px;
+      color: $primary-yellow;
+      background-color: black;
+    }
+  }
+
+  #total-amont-container {
+    border: $primary-yellow solid 2px;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    background-color: black;
+    color: $primary-yellow;
+    #title {
+      // border: $primary-yellow solid 2px;
+      color: $primary-yellow;
+      background-color: black;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  #credit-card-container {
+    flex-direction: row;
+    gap: 20px;
+  }
+}

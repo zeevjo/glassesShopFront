@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.65bb2c17.css",
+    "main.js": "/static/js/main.368eca0b.js",
+    "static/js/787.5ab8f69a.chunk.js": "/static/js/787.5ab8f69a.chunk.js",
+    "static/media/showcase-two.jpg": "/static/media/showcase-two.d5b4a91b8b978e0d0aba.jpg",
+    "static/media/test.jpg": "/static/media/test.721c2d95159c2bfca959.jpg",
+    "static/media/storylink.jpg": "/static/media/storylink.b3f11b85fefade2ac226.jpg",
+    "static/media/contactLensses.png": "/static/media/contactLensses.b58365aa73f864b0fa2f.png",
+    "static/media/test2.jpg": "/static/media/test2.7ae30e84441c39c6bc6a.jpg",
+    "static/media/henryPic.jpg": "/static/media/henryPic.93f4de15ba5b9dc63253.jpg",
+    "static/media/show_case_4.jpg": "/static/media/show_case_4.2fee78965a6eb45f2871.jpg",
+    "static/media/glassesLenses-removebg-preview.png": "/static/media/glassesLenses-removebg-preview.b56810b090d37596133b.png",
+    "static/media/test3.jpg": "/static/media/test3.6c2130c921792b44310c.jpg",
+    "static/media/shwcase-three.jpg": "/static/media/shwcase-three.921edcac3290666d43fa.jpg",
+    "static/media/user-pic.png": "/static/media/user-pic.c68770d3ff172a0c87a7.png",
+    "static/media/thumbnail.avif": "/static/media/thumbnail.be9963f9f982fd86ed33.avif",
+    "index.html": "/index.html",
+    "main.65bb2c17.css.map": "/static/css/main.65bb2c17.css.map",
+    "main.368eca0b.js.map": "/static/js/main.368eca0b.js.map",
+    "787.5ab8f69a.chunk.js.map": "/static/js/787.5ab8f69a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65bb2c17.css",
+    "static/js/main.368eca0b.js"
+  ]
+}

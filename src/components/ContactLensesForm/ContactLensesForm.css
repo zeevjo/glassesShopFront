@@ -1,0 +1,301 @@
+@media (min-width: 320px) {
+  #contactlenses-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+    font-family: serif;
+    height: 70vh;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container {
+    margin-top: 500px;
+    border: rgb(250, 204, 0) solid 2px;
+    margin: 2%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    background-color: rgb(158, 158, 158);
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-title-container {
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+    background-color: rgb(158, 158, 158);
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container {
+    background-color: rgb(158, 158, 158);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container .lenses-indicator-icons {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0%;
+  }
+  #contactlenses-form-container .lenses-indicator-icons {
+    font-size: large;
+  }
+  #contactlenses-form-container #lenses-form {
+    border: rgb(250, 204, 0) solid 2px;
+    width: 80%;
+    max-width: 800px;
+    background-color: rgb(158, 158, 158);
+    padding: 5px;
+  }
+  #contactlenses-form-container #lenses-form .form-control-lensCoating {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+  #contactlenses-form-container #lenses-form .form-control-lensCoating .lenses-labels {
+    width: 100%;
+  }
+  #contactlenses-form-container #lenses-form .form-control-lensCoating .lenses-form-inputs {
+    width: 100%;
+    height: 35px;
+    font-family: serif;
+    border-color: 2px rgb(250, 204, 0) solid;
+  }
+  #contactlenses-form-container #lenses-form .form-control-lensCoating .error {
+    margin-bottom: 7%;
+  }
+  #contactlenses-form-container #lenses-form .form-control-lensCoating #lenses-lensCoating {
+    width: 100%;
+    font-family: serif;
+  }
+  #contactlenses-form-container #lenses-form .form-control-lensCoating #lenses-lensCoating .contact-lenses-select-optins {
+    height: 35px;
+  }
+  #contactlenses-form-container #lenses-form .form-control-lensCoating #lenses-lensCoating {
+    width: 100%;
+    height: 35px;
+    font-family: serif;
+    color: rgb(151, 137, 137);
+  }
+  #contactlenses-form-container #lenses-form .form-control-thickness {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    font-family: serif;
+  }
+  #contactlenses-form-container #lenses-form .form-control-thickness .thickness-labels {
+    width: 100%;
+    border: rgb(0, 0, 0) solid 2px;
+  }
+  #contactlenses-form-container #lenses-form .form-control-thickness #lenses-thickness {
+    width: 100%;
+    height: 35px;
+    font-family: serif;
+  }
+  #contactlenses-form-container #lenses-form .form-control-cylinder {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    font-family: serif;
+  }
+  #contactlenses-form-container #lenses-form .form-control-cylinder .lenses-labels {
+    width: 100%;
+  }
+  #contactlenses-form-container #lenses-form .form-control-cylinder #lenses-cylinder {
+    width: 100%;
+    height: 35px;
+    font-family: serif;
+  }
+  #contactlenses-form-container #lenses-form #lenses-submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contactlenses-form-container #lenses-form #lenses-submit-container #lenses-submit {
+    width: 100%;
+    height: 35px;
+    color: rgb(250, 204, 0);
+    background-color: rgb(0, 0, 0);
+  }
+}
+@media (min-width: 425px) {
+  #contactlenses-form-container {
+    height: 475px;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container {
+    margin-top: 0px;
+  }
+  #contactlenses-form-container #lenses-form {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 520px) {
+  #contactlenses-form-container {
+    height: 600px;
+  }
+  #contactlenses-form-container #lenses-form {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 680px) {
+  #contactlenses-form-container #contactlenses-indicator-container {
+    width: 60%;
+  }
+  #contactlenses-form-container #lenses-form {
+    margin-bottom: 11%;
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  #contactlenses-form-container {
+    height: 85vh;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container {
+    margin: 2%;
+    margin-bottom: 4%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-title-container {
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container .lenses-indicator-icons {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0%;
+    font-size: x-large;
+  }
+  #contactlenses-form-container #lenses-submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contactlenses-form-container #lenses-submit-container #lenses-submit {
+    width: 100%;
+    height: 35px;
+  }
+  #contactlenses-form-container #lenses-form {
+    margin-bottom: 11%;
+    width: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  #contactlenses-form-container #contactlenses-indicator-container {
+    border: rgb(255, 200, 0) solid 2px;
+    margin: 2%;
+    margin-bottom: 3%;
+  }
+  #contactlenses-form-container #lenses-form {
+    margin-bottom: 3%;
+    width: 600px;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container {
+    margin: 2%;
+    margin-bottom: 3%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-title-container {
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container .lenses-indicator-icons {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0%;
+    font-size: x-large;
+  }
+}
+@media (min-width: 1440px) {
+  #contactlenses-form-container #contactlenses-indicator-container {
+    border: rgb(0, 0, 0) solid 2px;
+    margin: 2%;
+    margin-top: 0;
+    margin-bottom: 1%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-title-container {
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container .lenses-indicator-icons {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0%;
+    font-size: x-large;
+  }
+  #contactlenses-form-container #lenses-form {
+    width: 50%;
+    margin-bottom: 3%;
+    margin-top: 0%;
+  }
+}
+@media (min-width: 1920px) {
+  #contactlenses-form-container #contactlenses-indicator-container {
+    margin: 2%;
+    margin-bottom: 7%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-title-container {
+    border: red solid 2px;
+    text-align: center;
+    font-size: medium;
+    font-size: x-large;
+    width: 100%;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #contactlenses-form-container #contactlenses-indicator-container #lenses-icon-indicator-container .lenses-indicator-icons {
+    border: rgb(255, 0, 0) solid 2px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0%;
+    font-size: xx-large;
+  }
+  #contactlenses-form-container #lenses-form {
+    margin-bottom: 1%;
+    width: 800px;
+  }
+  #contactlenses-form-container #lenses-form .lenses-labels {
+    font-size: large;
+  }
+  #contactlenses-form-container #lenses-form .lenses-form-inputs {
+    font-size: large;
+  }
+  #contactlenses-form-container .error {
+    font-size: medium;
+  }
+}/*# sourceMappingURL=ContactLensesForm.css.map */

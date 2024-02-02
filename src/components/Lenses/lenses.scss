@@ -1,0 +1,246 @@
+@import "../../Varaibles/";
+
+.dynamic-class-for-lenses-form-container {
+  margin-bottom: 7%;
+}
+@media (min-width: 320px) {
+  #lenses-form-container {
+    //border: rgb(255, 0, 0) solid 2px;
+    // margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    font-family: serif;
+    min-height: 500px;
+
+    #lenses-indicator-container {
+      border: rgb(0, 153, 255) solid 2px;
+      margin: 2%;
+      margin-bottom: 7%;
+      #lenses-title-container {
+        border: red solid 2px;
+        text-align: center;
+        font-size: medium;
+        #lenses-icon-indicator-container {
+          border: red solid 2px;
+        }
+      }
+    }
+
+    .lenses-indicator-icons {
+      font-size: large;
+    }
+
+    #lenses-form {
+      border: $primary-yellow solid 2px;
+      background-color: rgb(158, 158, 158);
+      width: 80%;
+      margin-bottom: 5%;
+      max-width: 800px;
+      padding: 5px;
+
+
+      .lenses-form-inputs {
+        border: $primary-yellow 1px solid;
+      }
+      .form-control-lensCoating {
+        //border: rgb(13, 255, 0) solid 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+
+        .lenses-labels {
+          width: 100%;
+          //border: rgb(0, 0, 0) solid 2px;
+        }
+
+        .lenses-form-inputs {
+          width: 100%;
+          height: 35px;
+          font-family: serif;
+          border: $primary-yellow 1px solid;
+        }
+
+        .error {
+          margin-bottom: 7%;
+        }
+
+        #lenses-lensCoating {
+          width: 100%;
+          font-family: serif;
+          border: 1px $primary-yellow solid;
+        }
+
+        #lenses-lensCoating {
+          width: 100%;
+          height: 35px;
+          font-family: serif;
+          color: rgb(151, 137, 137);
+        }
+
+        .lenses-form-inputs {
+          border: $primary-yellow 1px solid;
+        }
+      }
+
+      .form-control-thickness {
+        //border: rgb(13, 255, 0) solid 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        font-family: serif;
+
+        .thickness-labels {
+          width: 100%;
+          //border: rgb(0, 0, 0) solid 2px;
+        }
+
+        #lenses-thickness {
+          width: 100%;
+          height: 35px;
+          font-family: serif;
+        }
+      }
+
+      .form-control-cylinder {
+        //border: $primary-yellow solid 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        font-family: serif;
+
+        .lenses-labels {
+          width: 100%;
+          //border: rgb(0, 0, 0) solid 2px;
+        }
+
+        .lenses-form-inputs {
+          border: $primary-yellow 1px solid;
+        }
+
+        #lenses-cylinder {
+          width: 100%;
+          height: 35px;
+          font-family: serif;
+        }
+      }
+
+      #lenses-submit-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #lenses-submit {
+          border: $primary-yellow solid 2px;
+          background-color: black;
+          color: $primary-yellow;
+          height: 35px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #lenses-form-container {
+    #lenses-indicator-container {
+      border: rgb(255, 200, 0) solid 2px;
+      width: 400px;
+      margin: 2%;
+      margin-bottom: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      #lenses-title-container {
+        border: blue solid 2px;
+        font-size: larger;
+        width: 100%;
+      }
+    }
+
+    .lenses-indicator-icons {
+      border: rgb(255, 0, 0) solid 1px;
+      width: fit-content;
+      font-size: xx-large;
+    }
+
+    #lenses-form {
+      margin-bottom: 5%;
+    }
+    #lenses-submit-container {
+      // border: red solid 2px;
+      #lenses-submit {
+        border: $primary-yellow solid 2px;
+        background-color: black;
+        color: $primary-yellow;
+        height: 35px;
+        width: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  #lenses-form-container {
+    #lenses-indicator-container {
+      border: rgb(255, 200, 0) solid 2px;
+      margin: 2%;
+      margin-bottom: 3%;
+    }
+
+    #lenses-title-container {
+      border: blue solid 2px;
+    }
+
+    #lenses-form {
+      margin-bottom: 3%;
+      width: 600px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  #lenses-form-container {
+    #lenses-indicator-container {
+      border: rgb(255, 200, 0) solid 2px;
+      margin: 2%;
+      margin-bottom: 1%;
+    }
+
+    #lenses-form {
+      margin-bottom: 1%;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  #lenses-form-container {
+    #lenses-indicator-container {
+      border: rgb(255, 200, 0) solid 2px;
+      margin-top: 1%;
+      margin-bottom: 1%;
+    }
+
+    #lenses-form {
+      margin-bottom: 1%;
+      width: 800px;
+
+      .lenses-labels {
+        font-size: large;
+      }
+
+      .lenses-form-inputs {
+        font-size: large;
+      }
+    }
+
+    .error {
+      font-size: medium;
+    }
+  }
+}

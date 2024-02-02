@@ -1,0 +1,178 @@
+@media (min-width: 320px) {
+  #front-view-models-contanier {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    // border: red 2px solid;
+    padding: 7%;
+    background-color: black;
+
+    #front-view-models-displayedCards-contanier {
+      // border: rgb(0, 8, 255) 2px solid;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      .item-card-container {
+        border: 1px rgb(71, 70, 70) solid;
+        margin: 0%;
+        background-color: white;
+      }
+    }
+
+    #front-view-models-title {
+      font-family: serif;
+      // border: red 2px solid;
+      margin-bottom: 15px;
+      color: white;
+      color: rgb(250, 204, 0);
+    }
+
+    #cart {
+      // border: red 2px solid;
+      display: none;
+    }
+
+    #plus {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  #front-view-models-contanier {
+    padding: 4%;
+    #front-view-models-displayedCards-contanier {
+      // border: rgb(0, 8, 255) 2px solid;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      .item-card-container {
+        border: 1px rgb(71, 70, 70) solid;
+        margin: 0%;
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  #front-view-models-contanier {
+    padding: 4%;
+    #front-view-models-displayedCards-contanier {
+      // border: rgb(0, 8, 255) 2px solid;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      .item-card-container {
+        border: 1px rgb(71, 70, 70) solid;
+        margin: 0%;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  #front-view-models-contanier {
+    // background-color: black;
+    #front-view-models-displayedCards-contanier {
+      // border: rgb(0, 8, 255) 2px solid;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 98%;
+      .item-card-container {
+        border: 1px rgb(71, 70, 70) solid;
+        margin: 0%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  #front-view-models-contanier {
+    // background-color: black;
+    #front-view-models-displayedCards-contanier {
+      // border: rgb(0, 8, 255) 2px solid;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 87%;
+      .item-card-container {
+        border: 1px rgb(71, 70, 70) solid;
+        margin: 0%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  #front-view-models-contanier {
+    #front-view-models-displayedCards-contanier {
+      width: 80%;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  #front-view-models-contanier {
+    #front-view-models-displayedCards-contanier {
+      width: 85%;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  #front-view-models-contanier {
+    #front-view-models-displayedCards-contanier {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  #front-view-models-contanier {
+    #front-view-models-displayedCards-contanier {
+      width: 95%;
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  #front-view-models-contanier {
+    #front-view-models-displayedCards-contanier {
+      width: 90%;
+    }
+  }
+}
+
+// @media (min-width: 1800px) {
+//   #front-view-models-contanier {
+//     #front-view-models-displayedCards-contanier {
+//       width: 70%;
+//     }
+//   }
+// }
+
+// @media (min-width: 1900px) {
+//   #front-view-models-contanier {
+//     #front-view-models-displayedCards-contanier {
+//       width: 75%;
+//     }
+//   }
+// }
+
+// @media (min-width: 2000px) {
+//   #front-view-models-contanier {
+//     #front-view-models-displayedCards-contanier {
+//       width: 45%;
+//     }
+//   }
+// }

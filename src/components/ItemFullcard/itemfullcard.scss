@@ -1,0 +1,133 @@
+@import "../../Varaibles/";
+
+.ItemFullcard-heb-arrow {
+  transform: rotate(180deg);
+}
+      
+
+@media (min-width: 320px) {
+  #ItemFullcard-container {
+    // border: rgb(30, 0, 255) solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // padding: 2%;
+    width: fit-content;
+
+    .ItemFullcard-img-container {
+      // border: rgb(8, 8, 8) solid 2px;
+
+      .ItemFullcard-img {
+        width: 100%;
+        height: auto;
+      }
+
+
+    }
+
+  }
+
+  #ItemFullcard-modelName {
+    // border: red solid 2px;
+    width: 100%;
+    font-size: medium;
+    text-align: center;
+  }
+
+  #ItemFullcard-price {
+    // border: red solid 2px;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+  }
+
+  .ItemFullcard-model-rating {
+    // border: red solid 2px;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+
+    .ItemFullcard-star-icon-fill-star{
+      color:$primary-yellow ;
+    }
+
+    .ItemFullcard-star-icon-outline-star{
+      color:black;
+    }
+  }
+
+  .ItemFullcard-color-slider-container {
+    // border: rgb(26, 255, 0) solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    #ItemFullcard-color-slider-container-helper{
+    border: red solid 2px;
+    display: flex;
+    justify-content: center;
+
+    .ItemFullcard-color-options {
+      border: rgb(34, 0, 255) solid 2px;
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      .ItemFullcard-color-option {
+        border: red solid 2px;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        .ItemFullcard-colors {
+          width: 22px;
+          height: 22px;
+          border-radius: 25rem;
+          border: 1px rgb(0, 0, 0) solid;
+        }
+      }
+    }
+  }
+    .ItemFullcard-cart-arrow-icon {
+      border: rgb(4, 0, 255) solid 2px;
+      width: 10%;
+      height: 100%;
+    }
+
+    .ItemFullcard-item-cart-arrow-icon {
+      border: red solid 2px;
+      width: 10%;
+      height: 100%;
+    }
+  }
+
+  #ItemFullcard-color-slider-container-helper{
+    border: red solid 2px;
+    width: 100%;
+    display: flex;
+
+  
+  }
+
+  #ItemFullcard-stock-alert{
+    border: red solid 2px;
+    font-size: xx-small;
+    color: red;
+  }
+}
+
+
+
+@media (min-width: 526px) {
+  #ItemFullcard-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+
+/////////////////////

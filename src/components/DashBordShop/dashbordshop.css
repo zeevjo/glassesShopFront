@@ -1,0 +1,23 @@
+.dashbord-container-en {
+  border: rgb(0, 0, 0) solid 2px;
+  border-top-right-radius: 10px;
+  background-color: rgb(250, 204, 0);
+}
+.dashbord-container-en .dashbord-border-style-en {
+  border: rgb(0, 0, 0) solid 2px;
+  margin: 2px;
+  border-top-right-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.dashbord-container-heb {
+  border: rgb(0, 0, 0) solid 2px;
+  background-color: rgb(250, 204, 0);
+  border-top-left-radius: 10px;
+}
+.dashbord-container-heb .dashbord-border-style-heb {
+  border: rgb(0, 0, 0) solid 2px;
+  margin: 2px;
+  border-top-left-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=dashbordshop.css.map */

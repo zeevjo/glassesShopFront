@@ -1,0 +1,146 @@
+@media (min-width: 320px) {
+  #login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-top: 70px;
+  }
+  #dynamicIdForPasswordFormControl {
+    margin-top: 10%;
+  }
+  #login-grop-input {
+    width: 80%;
+    height: 67%;
+  }
+  #login-title {
+    text-align: center;
+    margin-bottom: 12%;
+  }
+  .login-labels {
+    display: block;
+  }
+  .login-form-inputs {
+    margin-top: 1%;
+    width: 100%;
+    height: 30px;
+    border: black solid 1px;
+  }
+  .error {
+    margin-bottom: 10%;
+    color: red;
+  }
+  #login-password-input {
+    margin-bottom: 1%;
+  }
+  #login-submit-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #login-new-customer-container {
+    text-align: end;
+  }
+  #login-new-customer-message {
+    display: block;
+    text-align: end;
+    display: inline;
+  }
+  #login-submit-button {
+    margin-top: 10%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(250, 204, 0);
+    font-family: serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 375px) {
+  .error {
+    margin-bottom: 7%;
+    color: red;
+  }
+  #login-submit-button {
+    margin-top: 7%;
+  }
+}
+@media (min-width: 425px) {
+  #dynamicIdForPasswordFormControl {
+    margin-top: 6%;
+  }
+  .error {
+    margin-bottom: 6%;
+    color: red;
+  }
+  #login-submit-button {
+    margin-top: 6%;
+  }
+}
+@media (min-width: 500px) {
+  #login-title {
+    margin-bottom: 9%;
+  }
+  #login-grop-input {
+    width: 70%;
+  }
+  .error {
+    margin-bottom: 6%;
+    color: red;
+  }
+  #login-submit-button {
+    margin-top: 8%;
+  }
+}
+@media (min-width: 575px) {
+  #login-grop-input {
+    width: 65%;
+  }
+}
+@media (min-width: 800px) {
+  #login-grop-input {
+    width: 55%;
+  }
+}
+@media (min-width: 800px) {
+  #login-form-container {
+    height: 550px;
+  }
+  #login-grop-input {
+    width: 55%;
+  }
+}
+@media (min-width: 1200px) {
+  #login-title {
+    margin-bottom: 6%;
+  }
+  .error {
+    margin-bottom: 4%;
+  }
+  #login-grop-input {
+    width: 50%;
+  }
+  #login-submit-button {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 1400px) {
+  #login-submit-button {
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(250, 204, 0);
+    font-family: serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 1500px) {
+  #login-grop-input {
+    width: 45%;
+  }
+}
+@media (min-width: 1700px) {
+  #login-grop-input {
+    width: 44%;
+  }
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,52 @@
+#loading-container-app {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#glasses-loading-icon {
+  color: white;
+  font-size: 300%;
+  animation: spin 3s linear infinite;
+}
+
+#loading-container-app {
+  position: fixed; /* Position fixed to cover the entire viewport */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  height: 100vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000000;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#glasses-loading-icon {
+  color: white;
+  font-size: 300%;
+  animation: spin 3s linear infinite;
+}/*# sourceMappingURL=loading.css.map */

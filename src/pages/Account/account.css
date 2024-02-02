@@ -1,0 +1,184 @@
+@media (min-width: 320px) {
+  .account-container-en {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    right: 0;
+    width: 0%;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out;
+    box-shadow: -4px 0 5px rgba(0, 0, 0, 0.1);
+    border: rgb(250, 204, 0) 2px solid;
+    z-index: 10000;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.7s ease-in-out;
+  }
+  .account-container-heb {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 0%;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out;
+    box-shadow: -4px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 100000;
+    flex-direction: column;
+    justify-content: space-between;
+    border: rgb(250, 204, 0) 2px solid;
+  }
+  .account-container-en.active-en,
+  .account-container-heb.active-heb {
+    display: flex;
+    gap: 0px;
+    width: 90%;
+    transition: width 0.7s ease-in-out;
+    padding: 5px;
+    background-color: rgb(204, 202, 202);
+  }
+  #account-user-img {
+    width: 70%;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: rgb(250, 204, 0) 2px solid;
+    border-radius: 50%;
+    background: black;
+  }
+  #account-user-full-name {
+    position: absolute;
+    top: 51%;
+    align-self: center;
+  }
+  #account-log-out-btn {
+    color: rgb(250, 204, 0);
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    border: rgb(250, 204, 0) 2px solid;
+  }
+}
+@media (min-width: 500px) {
+  .account-container-en.active-en {
+    width: 80%;
+  }
+  .account-container-heb.active-heb {
+    width: 80%;
+  }
+}
+@media (min-width: 600px) {
+  .account-container-heb {
+    padding: 3%;
+  }
+  .account-container-en {
+    padding: 3%;
+  }
+  .account-container-en.active-en {
+    width: 60%;
+  }
+  .account-container-heb.active-heb {
+    width: 60%;
+  }
+}
+@media (min-width: 700px) {
+  .account-container-en.active-en {
+    width: 50%;
+  }
+  .account-container-heb.active-heb {
+    width: 50%;
+  }
+  #account-user-full-name {
+    position: absolute;
+    top: 57%;
+    align-self: center;
+  }
+}
+@media (min-width: 800px) {
+  .account-container-en.active-en {
+    width: 40%;
+  }
+  .account-container-heb.active-heb {
+    width: 40%;
+  }
+}
+@media (min-width: 900px) {
+  .account-container-en.active-en {
+    width: 40%;
+  }
+  .account-container-heb.active-heb {
+    width: 40%;
+  }
+}
+@media (min-width: 1100px) {
+  .account-container-heb {
+    padding: 2%;
+  }
+  .account-container-en {
+    padding: 2%;
+  }
+  .account-container-en.active-en {
+    width: 35%;
+  }
+  .account-container-heb.active-heb {
+    width: 35%;
+  }
+}
+@media (min-width: 1200px) {
+  .account-container-en.active-en {
+    width: 34%;
+  }
+  .account-container-heb.active-heb {
+    width: 34%;
+  }
+}
+@media (min-width: 1300px) {
+  .account-container-en.active-en {
+    width: 32%;
+  }
+  .account-container-heb.active-heb {
+    width: 32%;
+  }
+}
+@media (min-width: 1400px) {
+  .account-container-heb {
+    padding: 1%;
+  }
+  .account-container-en {
+    padding: 1%;
+  }
+  .account-container-en.active-en {
+    width: 31%;
+  }
+  .account-container-heb.active-heb {
+    width: 31%;
+  }
+}
+@media (min-width: 1536px) {
+  .account-container-en.active-en {
+    width: 20%;
+  }
+  .account-container-heb.active-heb {
+    width: 20%;
+  }
+}
+@media (min-width: 1600px) {
+  .account-container-en.active-en {
+    width: 30%;
+  }
+  .account-container-heb.active-heb {
+    width: 30%;
+  }
+}
+@media (min-width: 1920px) {
+  .account-container-en.active-en {
+    width: 20%;
+  }
+  .account-container-heb.active-heb {
+    width: 20%;
+  }
+}/*# sourceMappingURL=account.css.map */

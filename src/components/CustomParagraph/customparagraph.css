@@ -1,0 +1,29 @@
+@media (min-width: 320px) {
+  .custom-paragraph-container .designed-line-one {
+    height: 15px;
+    width: 100%;
+    background-color: rgb(250, 204, 0);
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+  }
+  .custom-paragraph-container .paragraph-container {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-paragraph-container .paragraph-container .paragraph {
+    font-family: serif;
+    color: black;
+    width: 80%;
+    text-align: center;
+  }
+  .custom-paragraph-container .designed-line-two {
+    height: 15px;
+    width: 100%;
+    background-color: rgb(250, 204, 0);
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+  }
+}/*# sourceMappingURL=customparagraph.css.map */

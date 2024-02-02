@@ -1,0 +1,137 @@
+@import "../../Varaibles/index.scss";
+
+@media (min-width: 320px) {
+  #color-items-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-container-en {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    right: 0;
+    width: 0%;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out;
+    box-shadow: -4px 0 5px rgba(0, 0, 0, 0.1);
+    // border: 2px solid red;
+    z-index: 10000;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.7s ease-in-out;
+    border: black 1px solid;
+    // border: $primary-yellow 2px solid;
+    // background-color: gray;
+    max-width: 300px;
+    background-color: rgb(204, 202, 202);
+  }
+
+  .filter-container-heb {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 0%;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out;
+    box-shadow: -4px 0 5px rgba(0, 0, 0, 0.1);
+    // border: 2px solid red;
+    z-index: 10000;
+    flex-direction: column;
+    justify-content: space-between;
+    border: black 1px solid;
+    // border: 2px solid red;
+    background-color: rgb(204, 202, 202);
+  }
+
+  .filter-container-en.filter-active-en,
+  .filter-container-heb.filter-active-heb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+    transition: width 0.7s ease-in-out;
+  }
+
+  #colse-filter-en {
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+
+  #colse-filter-heb {
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+
+  #color-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px; /* Set your desired fixed height */
+    overflow-y: scroll;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 5px;
+    width: 85%;
+    background-color: black;
+    // border: red solid 2px;
+
+    .color-item-container {
+      // border: red solid 2px;
+      width: 26px;
+
+      .color-item-img {
+        width: 25px;
+        border-radius: 50%;
+        border: white 1px solid;
+
+        &.selected-color {
+          border: rgb(250, 204, 0) solid 3px;
+          // border: red 3px solid;
+        }
+      }
+    }
+  }
+  #select-color-item-title {
+    display: block;
+    width: 85%;
+    height: 35px;
+    text-align: center;
+    font-family: serif;
+    font-size: large;
+    background-color: $primary-yellow;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: red 3px solid;
+  }
+
+  #filter-reset-btn {
+    width: 85%;
+    height: 35px;
+    margin-top: 25px;
+    background-color: $primary-yellow;
+    font-family: serif;
+    font-size: large;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 520px) {
+  .filter-container-en.filter-active-en,
+  .filter-container-heb.filter-active-heb {
+    min-width: 20%;
+  }
+}

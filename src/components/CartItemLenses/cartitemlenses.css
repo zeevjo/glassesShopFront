@@ -1,0 +1,34 @@
+#cart-item-lenses-container {
+  display: flex;
+  border: black solid 2px;
+  width: 100%;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(250, 204, 0);
+}
+#cart-item-lenses-container #cart-item-lenses-img-container {
+  width: 50%;
+  border: black solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cart-item-lenses-container #cart-item-lenses-img-container #cart-item-lenses-img {
+  width: 100%;
+  height: auto;
+  max-height: 110px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: white;
+}
+#cart-item-lenses-container #cart-item-lenses-text-container {
+  border: black solid 2px;
+  width: 50%;
+  text-align: center;
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}/*# sourceMappingURL=cartitemlenses.css.map */

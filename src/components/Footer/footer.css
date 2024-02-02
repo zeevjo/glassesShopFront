@@ -1,0 +1,94 @@
+@media (min-width: 320px) {
+  #footer-container {
+    height: 250px;
+    background-color: rgb(250, 204, 0);
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer-container #social-media-container {
+    width: 60%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer-container #social-media-container .social-media-icons {
+    width: 14%;
+    height: 80%;
+    margin: 0%;
+  }
+  #footer-container #footer-links-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 7%;
+  }
+  #footer-container #footer-links-container .footer-links {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: medium;
+  }
+}
+@media (min-width: 525px) {
+  #footer-container #social-media-container {
+    height: 32px;
+  }
+  #footer-container #social-media-container .social-media-icons {
+    width: 14%;
+    height: 100%;
+  }
+  #footer-container #footer-links-container {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 900px) {
+  #footer-container #social-media-container {
+    width: 40%;
+    height: 25px;
+  }
+  #footer-container #social-media-container .social-media-icons {
+    width: 14%;
+    height: 100%;
+  }
+  #footer-container #footer-links-container {
+    margin-top: 2%;
+  }
+  #footer-container #footer-links-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+  }
+  #footer-container #footer-links-container .footer-links {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: medium;
+  }
+}
+@media (min-width: 1100px) {
+  #footer-container #social-media-container .social-media-icons {
+    width: 14%;
+    height: 100%;
+  }
+  #footer-container #footer-links-container {
+    margin-top: 2%;
+  }
+  #footer-container #footer-links-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+  }
+  #footer-container #footer-links-container .footer-links {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: medium;
+  }
+}/*# sourceMappingURL=footer.css.map */

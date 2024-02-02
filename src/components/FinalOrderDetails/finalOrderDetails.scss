@@ -1,0 +1,35 @@
+@import "../../Varaibles/index.scss";
+
+@media (min-width: 320px) {
+  #finalOrderDetails-contanier {
+    border: $primary-yellow 2px solid;
+    height: 76vh;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    width: 100%;
+    background-color: $back-ground-gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: serif;
+    font-size: larger;
+    gap: 10px;
+
+    #tnx {
+      text-align: center;
+      width: 80%;
+    }
+
+    #keep-shopping-btn {
+      width: 200px;
+      height: 35px;
+      border: $primary-yellow 2px solid;
+      background-color: $primary-black;
+      color: $primary-yellow;
+      font-family: serif;
+      font-size: 17px;
+    }
+  }
+}

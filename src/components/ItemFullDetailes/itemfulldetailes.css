@@ -1,0 +1,92 @@
+@media (min-width: 320px) {
+  #ItemFullDetailes-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+  }
+  #ItemFullDetailes-container #Design-ItemFullcard-container {
+    border: rgb(250, 204, 0) 2px solid;
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    gap: 3%;
+    padding: 3%;
+  }
+  h5 {
+    width: 100%;
+    text-align: center;
+  }
+  .ItemFullcard-btns {
+    border: rgb(250, 204, 0) solid 2px;
+    background-color: black;
+    color: rgb(250, 204, 0);
+    width: 100%;
+    height: 35px;
+    margin-top: 3%;
+    cursor: pointer;
+  }
+  #Productdescription {
+    text-align: center;
+  }
+}
+@media (min-width: 526px) {
+  #ItemFullDetailes-container #Design-ItemFullcard-container {
+    flex-direction: row;
+  }
+  #ItemFullDetailes-Product-Description-btns {
+    border: rgb(250, 204, 0) solid 2px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  #Productdescription {
+    width: 100%;
+    min-height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Productdescription #test123 {
+    padding: 2%;
+    text-align: center;
+  }
+  .ItemFullcard-btns {
+    width: 100%;
+    height: 35px;
+    margin-top: 3%;
+  }
+}
+#Design-ItemFullcard-container {
+  max-width: 890px;
+}
+
+@media (min-width: 426px) {
+  #ItemFullDetailes-container #Design-ItemFullcard-container {
+    max-width: 890px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+}
+@media (min-width: 726px) {
+  #ItemFullDetailes-container #Design-ItemFullcard-container {
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+}
+@media (min-width: 1024px) {
+  #ItemFullDetailes-container #Design-ItemFullcard-container {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}/*# sourceMappingURL=itemfulldetailes.css.map */

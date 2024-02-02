@@ -1,0 +1,102 @@
+@import "../../Varaibles/index.scss";
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.role-1 {
+  border: #700de0 5px solid;
+  border-style: double;
+}
+
+.role-2 {
+  border: #5c97e4 5px solid;
+  border-style: double;
+}
+
+.role-3 {
+  border: rgb(0, 0, 0) 5px solid;
+  border-style: double;
+}
+
+.flip-card-back {
+  // border: $primary-black 5px solid;
+  // border-style: double;
+  background-color: $back-ground-gray;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+
+  .user-name {
+    font-family: serif;
+    color: $primary-black;
+    font-size: 25px;
+  }
+  .user-role-select {
+    //border: red solid 2px;
+    background-color: black;
+    color: $primary-yellow;
+    font-family: sans-serif;
+    font-size: 15px;
+    min-height: 35px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .update-user-role-btn {
+    min-height: 35px;
+    width: 100%;
+    background-color: black;
+    color: $primary-yellow;
+    font-family: sans-serif;
+    font-size: 15px;
+    min-height: 35px;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+.img-profile-user-card-div {
+  background-image: url("../../assets/showcase/user-pic.png");
+  height: 200px;
+  width: 200px;
+  background-size: cover; /* Optional: for covering the entire div */
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

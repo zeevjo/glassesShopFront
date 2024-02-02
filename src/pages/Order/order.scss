@@ -1,0 +1,122 @@
+@import "../../Varaibles/index.scss";
+
+@media (min-width: 320px) {
+  #order-container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //  border: red solid 2px;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 3%;
+  }
+
+  .oredr-form-container {
+    border: $primary-yellow solid 2px;
+    background-color: rgb(158, 158, 158);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    #order-from-control-group {
+      // border: $primary-yellow solid 2px;
+      width: 100%;
+
+      .order-form-control {
+        // border: rgb(0, 85, 255) solid 2px;
+        display: flex;
+        flex-direction: column;
+
+        .order-labels {
+          // border: red solid 2px;
+          font-size: medium;
+          font-family: serif;
+        }
+
+        .order-form-inputs {
+          // border: red solid 2px;
+          height: 35px;
+          border: $primary-yellow solid 2px;
+        }
+      }
+    }
+
+    #order-creditCard-form-control-group {
+      border: rgb(30, 255, 0) solid 2px;
+      width: 100%;
+
+      .order-form-control {
+        border: rgb(0, 85, 255) solid 2px;
+        display: flex;
+        flex-direction: column;
+
+        .order-labels {
+          border: red solid 2px;
+          font-size: medium;
+          font-family: serif;
+        }
+
+        .order-form-inputs {
+          border: red solid 2px;
+          height: 35px;
+        }
+      }
+    }
+
+    #expary-date-form-control-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      border: red solid 2px;
+
+      #slash-icon-contanir {
+        border: rgb(21, 0, 255) solid 2px;
+        width: 20%;
+
+        #slash {
+          border: red solid 2px;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .order-form-control {
+        border: red solid 2px;
+        width: 40%;
+      }
+    }
+
+    .order-submit-container{
+      // border: red solid 2px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      #order-submit{
+        border: $primary-yellow 2px solid;
+        background-color: $primary-black;
+        color: $primary-yellow;
+        width: 100%;
+        height: 35px;
+      }
+    }
+
+
+    #total-amont-container{
+      border: red solid 2px;
+      width: 100%;
+      text-align: center;
+      padding: 2%;
+      margin-top: 2%;
+
+      #title{
+        border: red solid 2px;
+
+      }
+    }
+  }
+}
+
+

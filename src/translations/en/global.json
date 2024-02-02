@@ -1,0 +1,225 @@
+{
+  "navbar": {
+    "home": "HOME",
+    "shop": "SHOP",
+    "cart": "CART",
+    "story": "STORY",
+    "calendar": "CALENDER",
+    "dashboard": "DASHOABOARD",
+    "account": "ACCOUNT"
+  },
+  "showcase": {
+    "shop-now": "SHOP NOW"
+  },
+  "login": {
+    "login": "LOGIN",
+    "submit": "LOGIN",
+    "message": "Please enter your Username and Password",
+    "userNameInputLabel": "Username",
+    "passWordInputLabel": "Password",
+    "newCustomerMessage": "new customer? ",
+    "newCustomerLinkMessage": "create an account"
+  },
+  "signup": {
+    "register": "REGISTER",
+    "firstname": "First Name",
+    "lastName": "Last Name",
+    "passWordInputLabel": "Password",
+    "emailInputLabel": "Email",
+    "BdayInputLabel": "Date of Birth",
+    "phonenumberInputLabel": "Phon Number",
+    "userNameInputLabel": "User Name",
+    "submit": "SUBMIT"
+  },
+  "login-validation": {
+    "erorrFieldValue4Characters": "Username must be at least 4 characters",
+    "erorrUsernameRequired": "Username is required",
+    "erorrPasswordRequired": "Password is required",
+    "erorrstartsWithSpace": "Username can not start open with a space",
+    "erorrFieldValueHasSpaces": "Username can not have any spaces",
+    "UserNameMustmoreThen2Chracters": "Username must be at least 2 characters",
+    "PasswordMostBeAtleast8CharactersLong": "Password is at least 8 characters long",
+    "PasswordMostHaveAtLeastOneUppercaseLetter": "Password moset have at least one uppercase letter",
+    "PasswordMostHaveAtLeastOneLowerCaseLetter": "Password moset have at least one lowercase letter",
+    "PasswordMostHaveAtLeastOneDigit": "Password moset have at least one digit",
+    "PasswordMostHaveAtLeastOneSpecialCharacter": "Password moset have at least one special character"
+  },
+  "signup-validation": {
+    "firstNameIsRequired": "first name is required",
+    "firstNameCantStartWithSpace": "First name can't start with space",
+    "firstNameCantHaveSpaces": "First name can't contain spaces",
+    "firstNameMustHaveMoreThen2Chracters": "First name must contain at least  2 characters",
+    "firstNameCantHaveNumbers": "First name cant contain numbers",
+    "lastnameisrequired": "Last Name is required",
+    "lastnamecantstartwithspace": "Last name can't start with space",
+    "lastnamecanthavespaces": "Last cant have spaces",
+    "lastnamemostbelongerthentwochracters": "Last Name most be longer than two characters",
+    "lastnamecantcontianumbers": "Last name cant contain numbers",
+    "erorrEmailRequired": "email is required",
+    "IncorrectEmailFormat": "email format is incorrect",
+    "erorrstartsWithSpace": "Email cant begin with space",
+    "erorrFieldValueHasSpaces": "Email cant have spaces",
+    "erorrDateOfBirthRequired": "Date of birth is required",
+    "phoneNumberRequired": "Phone number is required",
+    "phoneNumberCantStartWithSpace": "Phone number cant start with space",
+    "phoneNumberCantHaveSpaces": "Phone number cant have spaces",
+    "phoneNumberCantHaveLetters": "Phone number contian letters",
+    "usernameCantstartsWithSpace": "Username cant starts with space",
+    "usernameCantHaveSpaces": "Username cant has spaces",
+    "usernameNeedsAtLeast4Characters": "Username needs at least 4 characters",
+    "erorrUsernameRequired": "User Name is required",
+    "thisUserNameAlreadyExists": "This user already exists, try again",
+    "erorrPasswordRequired": "Password required",
+    "PasswordMostBeAtleast8CharactersLong": "Password must be at least 8 characters long",
+    "PasswordMostHaveAtLeastOneUppercaseLetter": "Password must Have At least one Uppercase letter",
+    "PasswordMostHaveAtLeastOneLowerCaseLetter": "Password must Have At least one lowercase letter",
+    "PasswordMostHaveAtLeastOneDigit": "Password must have at least one digit",
+    "PasswordMostHaveAtLeastOneSpecialCharacter": "Password must have at least one special character",
+    "PasswordCantHaveSpaces": "Password Cant Have Spaces",
+    "userdoesnotexist": "User does not exist"
+  },
+  "shop": {
+    "eayglassesbutton": "Eayglasses",
+    "sunglassesbutton": "Sunglasses",
+    "contactlens": "Contact Lenses"
+  },
+  "itemcard": {
+    "lastinstock": "There is only one item left in stock",
+    "notinstock": "Item is out of stock",
+    "fullitem": "View Item",
+    "dashbordorderglasess": "Order From Manufacturer",
+    "dashbordcurrqantity": "In Inventory"
+  },
+  "ItemFullcard": {
+    "Productdescription1": "Elevate your style and set new trends with our exclusive high-end eyewear collection, meticulously curated to offer you unparalleled elegance and sophistication, ensuring that every pair is a testament to timeless fashion and meticulous craftsmanship.",
+    "Productdescription2": "Immerse yourself in the world of luxury and fashion with our unique high-end eyewear, where each pair of glasses tells a story of artistry and individuality, making a bold statement that transcends mere function and becomes an emblem of personal style.",
+    "Productdescription3": "Our high-end eyewear collection is a fusion of craftsmanship and couture, representing the epitome of luxury and fashion. With every detail meticulously designed, these frames are a testament to the dedication of our artisans to provide you with an exquisite eyewear experience",
+    "Productdescription4": "Discover distinctive, designer eyewear that not only enhances your vision but also elevates your overall aesthetic. Each pair in our high-end collection embodies the perfect blend of style and substance, reflecting the artistry and innovation that goes into their creation",
+    "Productdescription5": "Experience eyewear excellence like never before as you unveil the fashionable and unique world of high-end frames that we've meticulously assembled for discerning individuals like you, allowing you to make a distinctive fashion statement that speaks volumes about your exquisite taste.",
+    "chooselens": "Choose your lenses",
+    "addtocart": "Add to cart"
+  },
+  "lenses": {
+    "title": "Lenses",
+    "prescriptionStrengthLabel": "Prescription Strength",
+    "prescriptionStrengthIsRequired": "Prescription Strength is required",
+    "enterPrescriptionStrength": "Enter Prescription Strength",
+    "lensCoating-SelectAnOptionLabel": "Lens Coating",
+    "lensCoatingRequired": "Lens Coatins is required",
+    "lensCoating": "Select Lens Coating Option",
+    "lensCoating-BluBlock": "Blue light Block",
+    "lensCoating-Anti-Reflective": "Anti Reflective",
+    "EnterAnumberRangingFromNegative15toPositive15InJumpsOfAQuarter": "Enter a number Ranging From Negative 15 to Positive 15 In Jumps Of A Quarter",
+    "thicknessLabel": " Lense Thickness",
+    "enterThickness": "Enter Thickness size",
+    "thicknessIsRequired": "Thickness is required",
+    "invalidthicknesssize": "Invalid Thickness size, pick a size from this sizez 1.5, 1.53, 1.57, 1.59, 1.61, 1.67, 1.74",
+    "cylinderInvaid": "Cylinder size is between 0.25 and 15 with 0.25 steps",
+    "cylinderIsRequired": "Cylinder size is required",
+    "entercylinder": "Enter a cylinder size",
+    "cylinderLabel": "Cylinder",
+    "contactLenses": "Contact Lenses",
+    "selectAnExparyDate": " Select an expary date",
+    "ExparyDate": "Expary Date",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "submit": "Add to cart"
+  },
+  "cart": {
+    "title": "Cart",
+    "total-title": "Total payment",
+    "order-btn": "order",
+    "order-btn-not-logedin": "login to order"
+  },
+  "cartitemcontactlenses": {
+    "name": "Contact Lenses"
+  },
+  "cartitemlenses": {
+    "name": "Lenses"
+  },
+  "creditcard": {
+    "invalidcreditcardnumber": "Invalid credit card number",
+    "invalidExparyDate": "Invalid expiry date",
+    "ExparyDateToLong": "Expary date is to long",
+    "invalidcvc": "Invalid CVC",
+    "creditcardNameIsRequired": "Credit card name is required",
+    "CardNumber": "Card number",
+    "ExpirationDate": "Expiration date",
+    "CVV": "CVV",
+    "OnerName": "Oners Full Name",
+    "order": "Order",
+    "creditcardNameIsReInvalid": "Credit card oners name is invalid"
+  },
+  "order": {
+    "order": "order",
+    "totalOrder": "Total order",
+    "Continue": "Continue",
+    "title": "Order details",
+    "selectpaymentMethod": "Select payment method",
+    "paymentMethod": "Payment method",
+    "cash": "Cash",
+    "creditCard": "Credit card"
+  },
+  "customparagraph": {
+    "str1": "Experience excellence in every pair of eyeglasses we offer, crafted by highly skilled artisans using the finest materials from around the world",
+    "str2": "Dive into the world of sophistication and superior craftsmanship with our internationally renowned eyeglasses, blending stunning design with top-notch quality that appeals to everyone"
+  },
+  "FrontViewModels": {
+    "title": "A little peek"
+  },
+  "storylink": {
+    "p": "framing the world since 1915 literally..."
+  },
+  "footer": {
+    "shop": "Shop",
+    "contactus": "Contact Us",
+    "story": "Story",
+    "account": "Account",
+    "home": "Home"
+  },
+  "story": {
+    "p1": "In the vibrant streets of 1915 New York City, Henry, a young and driven optician, carried an unyielding passion for eyewear that transcended mere functionality. His aspiration? To create glasses that not only corrected vision but also exuded style, becoming fashion statements in their own right. Setting up a modest workshop in his neighborhood, Henry meticulously handcrafted each pair of glasses, infusing them with unparalleled uniqueness and flair. His devotion to detail soon captivated locals, drawing them to marvel at the exquisite craftsmanship of his creations",
+    "p2": "Henry's reputation spread swiftly like wildfire, sparking an unprecedented demand for his distinct eyeglasses. People from diverse backgrounds flocked to his workshop, eager to lay hands on these exclusive designs that not only improved vision but also embodied individuality and sophistication. As time flowed, Henry's workshop blossomed into a thriving international company, renowned for its blend of innovation, elegance, and luxury in crafting eyewear. The company's global acclaim attracted clientele from distant continents, cementing its stature as a symbol of prestige and triumph",
+    "p3": "With a fusion of timeless sophistication and avant-garde innovation, the company's eyeglasses adorned the faces of celebrities, dignitaries, and trendsetters worldwide. Each pair, a testament to Henry's vision, was not just a tool for clearer sight but an exquisite masterpiece, harmonizing artistry and functionality in perfect balance. Henry's enduring legacy persisted as the company continued to evolve, preserving its commitment to excellence and sophistication while pioneering the forefront of the eyewear industry, inspiring generations with its iconic designs and unwavering dedication to craftsmanship"
+  },
+  "filter": {
+    "selectColor": "Select Color",
+    "reset": "Reset"
+  },
+  "dashBordNavBar": {
+    "dashbordShop": "Inventory",
+    "users": "Users"
+  },
+  "order-validation": {
+    "firstNameIsRequired": "First Name Is Required",
+    "firstNameCantStartWithSpace": "First name can't contain spaces",
+    "firstNameMustHaveMoreThen2Chracters": "First name must contain at least  2 characters",
+    "firstNameCantHaveNumbers": "First name cant contain numbers",
+    "lastnamecantstartwithspace": "Last name can't start with space",
+    "lastnameisrequired": "Last Name is required",
+    "lastnamemostbelongerthentwochracters": "Last name must contain at least  2 characters",
+    "lastnamecantcontianumbers": "Last name cant contain numbers",
+    "erorrEmailRequired": "email is required",
+    "IncorrectEmailFormat": "email format is incorrect",
+    "erorrFieldValueHasSpaces": "Username can not have any spaces"
+  },
+  "finalOrderDetails": {
+    "tnxtext": "Thank you for purchasing from our eyewear site!",
+    "keepshopping": "Keep Shopping"
+  },
+  "users": {
+    "Employees": "Employees",
+    "Customers": "Customers",
+    "Oner": "Oner",
+    "all": "Users",
+    "SelectRole": "Select Role",
+    "Employee": "Employee",
+    "Customer": "Customer",
+    "UpdateUserRole": "Update User Role"
+  },
+  "account": {
+    "logout": "LOG-OUT"
+  }
+}
